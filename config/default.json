@@ -1,0 +1,60 @@
+{
+  "profile_name": "Developer_Default",
+  "version": "0.2",
+  "initial_mode": "idle",
+  "deadzone": 0.15,
+  "mode_switches": {
+    "north": "writing",
+    "west": "navigation"
+  },
+  "bindings": [
+    {
+      "mode": "writing",
+      "buttons": ["south"],
+      "action": {
+        "kind": "type_text",
+        "text": "a"
+      }
+    },
+    {
+      "mode": "writing",
+      "buttons": ["east"],
+      "action": {
+        "kind": "type_text",
+        "text": "b"
+      }
+    },
+    {
+      "mode": "writing",
+      "buttons": ["lefttrigger", "south"],
+      "action": {
+        "kind": "type_text",
+        "text": "1"
+      }
+    },
+    {
+      "mode": "writing",
+      "buttons": ["rightthumb"],
+      "action": {
+        "kind": "key_tap",
+        "key": "space"
+      }
+    },
+    {
+      "mode": "navigation",
+      "buttons": ["south"],
+      "action": {
+        "kind": "key_tap",
+        "key": "enter"
+      }
+    },
+    {
+      "mode": "navigation",
+      "buttons": ["east"],
+      "action": {
+        "kind": "key_tap",
+        "key": "backspace"
+      }
+    }
+  ]
+}
